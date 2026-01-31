@@ -24,5 +24,5 @@ app.use('/users', userRoutes);
 app.use(notFoundMiddleware);
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(` Server running on port ${PORT}`);
 });
